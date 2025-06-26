@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Welcome Home, Sayang</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+  <!-- PAGE 1 -->
+  <section class="page active" id="page1">
+    <h2>Tap Here 💌</h2>
+    <img src="letter.png" id="tapLetter" class="letter-img" alt="Letter" />
+  </section>
+
+  <!-- PAGE 2 -->
+  <section class="page" id="page2">
+    <h2 class="typing" id="typing2"></h2>
+    <button id="playBtn" class="play-btn">🔊 Mainkan Lagu</button>
+    <div class="btn-group">
+      <button class="prev-btn">Previous</button>
+      <button class="next-btn">Next</button>
+    </div>
+  </section>
+
+  <!-- PAGE 3 -->
+  <section class="page" id="page3">
+    <img src="calendar.png" class="calendar" alt="Calendar" />
+    <div class="arrow"></div>
+    <div class="caption">It’s your special day, sayang</div>
+    <div class="btn-group">
+      <button class="prev-btn">Previous</button>
+      <button class="next-btn">Next</button>
+    </div>
+  </section>
+
+  <!-- PAGE 4 -->
+  <section class="page" id="page4">
+    <div class="letter-wrapper">
+      <div class="img-fixed">
+        <img src="linn.jpg" id="profileImg" class="profile-img" alt="Sayang" />
+      </div>
+      <div class="letter typing" id="typing4"></div>
+    </div>
+    <div class="btn-group">
+      <button class="prev-btn">Previous</button>
+      <button class="next-btn">Next</button>
+    </div>
+  </section>
+
+  <!-- PAGE 5 -->
+  <section class="page" id="page5">
+    <div class="letter typing" id="typing5"></div>
+    <div class="btn-group">
+      <button class="prev-btn">Previous</button>
+      <button class="next-btn">Next</button>
+    </div>
+  </section>
+
+  <!-- PAGE 6 -->
+  <section class="page" id="page6">
+    <h2 class="typing" id="typing6"></h2>
+    <div class="btn-group-single">
+      <button class="prev-btn">Previous</button>
+    </div>
+  </section>
+</div>
+
+<!-- audio + mute -->
+<audio id="bgMusic" src="sempurna.mp3" loop></audio>
+<button id="muteBtn" class="mute-btn" style="display:none;">🔊</button>
+
+<script src="script.js"></script>
+</body>
+</html>
